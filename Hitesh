@@ -1,0 +1,12 @@
+apt update && upgrade 
+pkg install git 
+pkg install python python2 
+git clone https://github.com/abhinavkavuri/PhoneInfoga 
+ls 
+cd phoneinfoga 
+mv config.example.py config.py 
+ls 
+python3 -m pip install -r requiremets.txt 
+ls 
+python3 phoninfoga.py -v 
+python3 phoninfoga.py -n +91 62034 00087 
